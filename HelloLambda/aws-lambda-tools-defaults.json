@@ -5,7 +5,7 @@
     "configuration" : "Release",
     "framework"     : "netcoreapp2.1",
     "function-name" : "HelloLambda",
-    "function-handler" : "HelloLambda::HelloLambda.HandleFunction::FunctionHandler",
+    "function-handler" : "HelloLambda::HelloLambda.MyHandler::HandleFunction",
     "function-memory-size" : 256,
     "function-role"        : "arn:aws:iam::111430572889:role/lambda_exec_HelloLambda",
     "function-timeout"     : 10,

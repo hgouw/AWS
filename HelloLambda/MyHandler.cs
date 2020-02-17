@@ -1,7 +1,7 @@
-﻿using System;
-using Amazon.Lambda.Core;
+﻿using Amazon.Lambda.Core;
 using Amazon.Lambda.Serialization.Json;
-using System.Threading.Tasks;
+
+//[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
 
 namespace HelloLambda
 {
