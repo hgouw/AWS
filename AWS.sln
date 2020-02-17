@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaCustomRuntimeFunct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaSimpleS3Function", "AWSLambdaSimpleS3Function\AWSLambdaSimpleS3Function.csproj", "{598C6BF2-2F42-4D5A-A908-722469F022DB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaImageRekognition", "AWSLambdaImageRekognition\AWSLambdaImageRekognition.csproj", "{DD7A0228-F187-42A3-BEBE-8A49C16EBEB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{598C6BF2-2F42-4D5A-A908-722469F022DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598C6BF2-2F42-4D5A-A908-722469F022DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{598C6BF2-2F42-4D5A-A908-722469F022DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7A0228-F187-42A3-BEBE-8A49C16EBEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7A0228-F187-42A3-BEBE-8A49C16EBEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7A0228-F187-42A3-BEBE-8A49C16EBEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7A0228-F187-42A3-BEBE-8A49C16EBEB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
