@@ -12,16 +12,21 @@ namespace AWSLambdaEmptyFunction
 {
     public class Function
     {
-        
-        /// <summary>
-        /// A simple function that takes a string and does a ToUpper
-        /// </summary>
-        /// <param name="input"></param>
-        /// <param name="context"></param>
-        /// <returns></returns>
-        public string FunctionHandler(string input, ILambdaContext context)
+        public Result FunctionHandler(Request request)
         {
-            return input?.ToUpper();
+            return new Result
+            {
+                HelloWorld = request.Name
+            };
         }
+    }
+
+    public class Request
+    {
+        public string Name { get; set; }
+    }
+    public class Result
+    {
+        public string HelloWorld { get; set; }
     }
 }
