@@ -1,0 +1,15 @@
+
+{
+    "region" : "ap-southeast-2",
+    "profile" : "hgouw",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp2.1",
+    "function-name" : "HelloLambda",
+    "function-handler" : "HelloLambda::HelloLambda.HandleFunction::FunctionHandler",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::111430572889:role/lambda_exec_HelloLambda",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnetcore2.1",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : ""
+}
