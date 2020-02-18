@@ -6,7 +6,7 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "hgouw",
+    "profile"     : "Sandbox",
     "region"      : "ap-southeast-2",
     "configuration" : "Release",
     "framework"     : "netcoreapp3.1",
@@ -16,7 +16,7 @@
     "function-handler"     : "not_required_for_custom_runtime",
     "msbuild-parameters"   : "--self-contained true",
     "function-name"        : "AWSLambdaCustomRuntimeFunction",
-    "function-role"        : "arn:aws:iam::111430572889:role/lambda_exec_AWSLambdaCustomRuntimeFunction",
+    "function-role"        : "arn:aws:iam::490359267295:role/InstanceScheduler-SchedulerRole-14KFYS3OVELOF",
     "tracing-mode"         : "PassThrough",
     "environment-variables" : ""
 }
