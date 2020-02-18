@@ -34,7 +34,17 @@ namespace AWSLambdaCustomRuntimeFunction
         /// <returns></returns>
         public static string FunctionHandler(string input, ILambdaContext context)
         {
+            LogMessage(context, "Processing " + input);
             return input?.ToUpper();
+        }
+
+        static void LogMessage(ILambdaContext ctx, string msg)
+        {
+            ctx.Logger.LogLine(
+                string.Format("{0}:{1} - {2}",
+                    ctx.AwsRequestId,
+                    ctx.FunctionName,
+                    msg));
         }
     }
 }
