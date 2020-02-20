@@ -34,6 +34,7 @@ namespace AWSLambdaCustomRuntimeFunction
         /// <returns></returns>
         public static string FunctionHandler(string input, ILambdaContext context)
         {
+            Console.WriteLine("Starting FunctionHandler");
             LogMessage(context, "Processing " + input);
             return input?.ToUpper();
         }
