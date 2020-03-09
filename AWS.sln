@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambdaImageRekognition",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloLambda", "HelloLambda\HelloLambda.csproj", "{932B0CC9-E6C8-4676-B4BD-6DAAF90335F7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageRekognition", "ImageRekognition\ImageRekognition.csproj", "{13F8B8D2-0DFF-43C3-B1BE-667A69019D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{932B0CC9-E6C8-4676-B4BD-6DAAF90335F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932B0CC9-E6C8-4676-B4BD-6DAAF90335F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{932B0CC9-E6C8-4676-B4BD-6DAAF90335F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F8B8D2-0DFF-43C3-B1BE-667A69019D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F8B8D2-0DFF-43C3-B1BE-667A69019D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F8B8D2-0DFF-43C3-B1BE-667A69019D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F8B8D2-0DFF-43C3-B1BE-667A69019D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
