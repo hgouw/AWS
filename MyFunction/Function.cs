@@ -13,9 +13,21 @@ namespace MyFunction
         /// <param name="input"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public string FunctionHandler(string input, ILambdaContext context)
+        //public string FunctionHandler(string input, ILambdaContext context)
+        //{
+        //    context.Logger.LogLine($"Calling function {context.FunctionName}");
+        //    return input?.ToUpper();
+        //}
+        public string FunctionHandler(User user, ILambdaContext context)
         {
-            return input?.ToUpper();
+            context.Logger.LogLine($"Calling function {context.FunctionName}");
+            return $"G'Day ... {user.FirstName} {user.LastName}";
         }
+    }
+
+    public class User
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }
